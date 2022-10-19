@@ -1,0 +1,18 @@
+.p {
+    margin: 0;
+}
+
+.small {
+    font-size: 14px;
+    list-style: 24px;
+}
+
+.medium {
+    font-size: 16px;
+    list-style: 24px;
+}
+
+.large {
+    font-size: 18px;
+    list-style: 29px;
+}
