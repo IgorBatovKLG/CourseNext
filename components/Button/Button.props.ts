@@ -1,4 +1,6 @@
-export interface buttonProps {
-    children: React.ReactNode;
+import {HTMLAttributes, ReactNode} from "react";
+
+export interface buttonProps extends HTMLAttributes<HTMLButtonElement> {
+    children: ReactNode;
     appearance: 'primary' | 'ghost';
 }
